@@ -1,0 +1,15 @@
+
+## Note operative — 08-metadyn
+
+- run.sh in 08-metadyn/ NON e' un job SLURM: va lanciato con
+  `bash run.sh` (mai `sbatch run.sh`). E' uno script lanciatore che gira
+  sul login node e sottomette a sua volta 19-20 job veri tramite sbatch,
+  uno per replica (ciascuno con l'header SLURM corretto dentro startme.sh).
+
+- In plumed-mode-metadyn.dat, il parametro SIGMA delle due CV (modi 7 e 8)
+  va impostato a META' della deviazione standard delle fluttuazioni non
+  biased calcolate in 06-ModeProj (file standard-deviation.out), non e' un
+  valore arbitrario. Per il branch apo: SIGMA=4.4e-05,1.6e-04 (calcolato da
+  mode7 std=8.78e-05, mode8 std=3.21e-04). Per il branch holo andra'
+  ricalcolato da zero con gli stessi criteri, usando i valori di
+  standard-deviation.out prodotti dal 06-ModeProj del sistema holo.

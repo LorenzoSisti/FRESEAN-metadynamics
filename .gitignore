@@ -1,0 +1,51 @@
+# Output binari pesanti generati dalle simulazioni GROMACS
+*.trr
+*.tpr
+*.cpt
+*.edr
+*.mmat
+*.mmat.dat
+*.xtc
+
+# Log e output verbosi (possono crescere molto con mdrun -v)
+mdrun.out
+grompp.out
+matrix.out
+coarse.out
+plumed-driver.out
+slurm-*.out
+
+# Cartelle di output delle repliche/run, a qualunque livello di nidificazione
+**/R1/
+**/R2/
+**/R3/
+**/R4/
+**/R5/
+**/run-NPT/
+**/snapshots/
+**/metadyn_*/
+**/em/
+**/equi/
+
+# File .xyz generati (modi estratti/backmappati, non gli script)
+evec_*.xyz
+input-cg-modes.xyz
+
+# Ambiente locale
+env-plumed.sh
+
+# Escludi binari e oggetti compilati
+bin/*
+!bin/.gitignore
+build/*
+!build/.gitignore
+
+# Escludi file di output
+*.out
+
+# Escludi binari, oggetti compilati e file di output
+bin/*
+!bin/.gitignore
+build/*
+!build/.gitignore
+*.out

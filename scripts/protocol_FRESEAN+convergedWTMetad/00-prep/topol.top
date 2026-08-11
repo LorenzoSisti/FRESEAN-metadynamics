@@ -1,0 +1,50 @@
+;
+;	File 'topol_prot.top' was generated
+;	By user: unknown (130536)
+;	On host: lrdn3439.leonardo.local
+;	At date: Mon Jul 13 19:23:11 2026
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	              :-) GROMACS - gmx pdb2gmx, 2022.5-plumed_2.9.2 (-:
+;	
+;	Executable:   /leonardo_scratch/large/userexternal/lsisti00/gromacs-2022.5-plumed-install/bin/gmx_plumed
+;	Data prefix:  /leonardo_scratch/large/userexternal/lsisti00/gromacs-2022.5-plumed-install
+;	Working dir:  /leonardo_scratch/large/userexternal/lsisti00/FRESEAN-metadynamics/scripts/protocol_FRESEAN+convergedWTMetad/00-prep
+;	Command line:
+;	  gmx_plumed pdb2gmx -f DDC_homo_open.pdb -p topol_prot.top -o prot.gro -ff amber99sb-ildn -water tip3p
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_prot_Protein_chain_A.itp"
+#include "topol_prot_Protein_chain_B.itp"
+
+; Include water topology
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+SOL         59401
+NA               182
+CL               178
