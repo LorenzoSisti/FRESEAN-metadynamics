@@ -1,3 +1,9 @@
+# File di input (così da poter pushare la repository come pubblica)
+
+*.pdb
+*.gro
+*.itp
+
 # Output binari pesanti generati dalle simulazioni GROMACS
 *.trr
 *.tpr
