@@ -13,3 +13,66 @@
   mode7 std=8.78e-05, mode8 std=3.21e-04). Per il branch holo andra'
   ricalcolato da zero con gli stessi criteri, usando i valori di
   standard-deviation.out prodotti dal 06-ModeProj del sistema holo.
+
+## Come lanciare 08-metadyn
+
+Prerequisiti (devono essere gia' completati e verificati):
+- 06-ModeProj completato per la replica scelta come riferimento (fornisce
+  plumed-mode-input.pdb e le deviazioni standard in standard-deviation.out)
+- 07-resample completato (fornisce i 20 snapshot in snapshots/state_0.gro
+  ... state_19.gro, uno ogni 5 ns su 100 ns di dinamica non biased)
+
+Passi:
+
+1. Dentro single_metad/, verificare/impostare SIGMA in
+   plumed-mode-metadyn.dat a META' della deviazione standard delle
+   fluttuazioni non biased calcolate in 06-ModeProj (vedi nota sopra).
+   NON lasciare mai il placeholder SIGMA=XXX,YYY, PLUMED fallirebbe
+   al parsing.
+
+2. Test preliminare su UNA sola replica, prima di lanciarle tutte:
+
+     cd 08-metadyn
+     cp -r single_metad metadyn_0
+     cd metadyn_0
+     sbatch --job-name=METAD_REPLICA_0.run --export=replica=0 startme.sh
+
+   Verificare che grompp.out, mdrun.out e plumed-mode-metadyn.out non
+   mostrino errori e che il bias (colonna metad.bias) cresca in modo
+   sensato prima di procedere.
+
+3. Solo dopo aver confermato che la replica di test funziona, lanciare
+   le restanti (modificare run.sh impostando l'indice di partenza del
+   ciclo a 1, dato che metadyn_0 e' gia' stata creata manualmente):
+
+     cd 08-metadyn
+     bash run.sh          # ATTENZIONE: mai "sbatch run.sh"
+
+   run.sh NON e' un job SLURM: e' uno script lanciatore che gira sul
+   login node e sottomette a sua volta 19 job veri (uno per replica)
+   tramite sbatch, ciascuno con l'header SLURM corretto definito dentro
+   startme.sh.
+
+4. Ogni replica gira con auto-resubmit: se il --time allocato scade
+   prima di raggiungere nsteps, lo script si ri-sottomette da solo via
+   sbatch --dependency=afterany, riprendendo dal checkpoint. Non serve
+   intervento manuale in condizioni normali.
+
+5. Monitorare periodicamente lo stato con:
+
+     squeue --me
+     cindata          # spazio disco
+     saldo -b          # budget ore-GPU del progetto
+
+   ATTENZIONE: se il budget del progetto (saldo -b) supera il 100%,
+   sbatch rifiuta silenziosamente i nuovi resubmit con errore "invalid
+   account or expired budget", visibile solo aprendo lo slurm-*.out
+   del tentativo fallito. Le repliche restano ferme al loro ultimo
+   checkpoint valido (nessun dato perso, ma nessun avanzamento) finche'
+   il budget non viene reintegrato.
+
+Le sottocartelle metadyn_0 ... metadyn_19 sono escluse da git
+(.gitignore) perche' contengono output di simulazione molto pesanti
+(centinaia di GB a replica): sono istanze di esecuzione di
+single_metad/, non varianti di codice. single_metad/ resta l'unica
+fonte di verita' versionata per gli script di questo step.
