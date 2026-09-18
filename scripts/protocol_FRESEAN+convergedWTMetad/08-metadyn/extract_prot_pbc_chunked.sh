@@ -1,4 +1,13 @@
 #!/bin/bash
+#SBATCH --job-name 06ModeProj_DDC_apo_open
+#SBATCH -N1 --ntasks-per-node=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --account=IscrC_hDDC
+#SBATCH --partition=boost_usr_prod
+
+source /leonardo_scratch/large/userexternal/lsisti00/env-plumed.sh
+
 # extract_prot_pbc_chunked.sh
 #
 # Genera metadyn_prot_pbc.trr a piccoli spezzoni temporali, per restare
@@ -17,29 +26,27 @@
 
 set -e
 
-#BEGIN INPUT
-chunk_ps=2000        # dimensione di ciascun chunk, in ps (2 ns). Riduci
-                      # ulteriormente (es. 1000) se anche questo supera
-                      # i 600s di CPU time sul tuo sistema.
+# BEGIN INPUT
+chunk_ps=2000        # Dimensione chunk in ps (2 ns)
+max_ps=80000         # Limite massimo uniformato a 80 ns (80000 ps)
 gmx=gmx_plumed
-outGrp=1              # gruppo "Protein" per trjconv
-#END INPUT
+outGrp=1             # Gruppo "Protein"
+# END INPUT
+
+if ! command -v $gmx &> /dev/null; then
+  echo "- ERRORE: $gmx non è presente nel PATH. Carica i moduli necessari prima di eseguire."
+  exit 1
+fi
 
 if [ ! -f metadyn.tpr ] || [ ! -f metadyn.trr ]; then
-  echo "-manca metadyn.tpr o metadyn.trr in questa cartella, esco"
+  echo "- Manca metadyn.tpr o metadyn.trr in $(pwd), esco"
   exit 1
 fi
 
-# Determina il tempo totale disponibile nella traiettoria grezza,
-# interrogando l'ultimo frame con gmx check (operazione leggera, legge
-# solo gli header dei frame, non i dati - non dovrebbe avvicinarsi al
-# limite di CPU time)
-total_ps=$($gmx check -f metadyn.trr 2>&1 | grep -i "Last frame" | awk '{print $NF}')
-if [ -z "${total_ps}" ]; then
-  echo "-impossibile determinare la durata totale da gmx check, controlla manualmente"
-  exit 1
-fi
-echo "Traiettoria grezza: fino a ${total_ps} ps"
+# Limite impostato direttamente a 80 ns (80000 ps) senza eseguire gmx check
+total_ps=${max_ps}
+
+echo "Traiettoria: elaborazione impostata fino a ${total_ps} ps (80 ns)"
 
 mkdir -p chunks
 touch .chunks_done
@@ -47,7 +54,6 @@ touch .chunks_done
 b=0
 while (( $(echo "$b < $total_ps" | bc -l) )); do
   e=$(echo "$b + $chunk_ps" | bc)
-  # L'ultimo chunk puo' essere piu' corto: non superare total_ps
   if (( $(echo "$e > $total_ps" | bc -l) )); then
     e=$total_ps
   fi
@@ -63,27 +69,18 @@ while (( $(echo "$b < $total_ps" | bc -l) )); do
 
   echo "Chunk ${chunk_label} ps: estraggo..."
   $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" \
-    -pbc mol -b "${b}" -e "${e}" << STOP >& "chunks/log_${chunk_label}.out"
+    -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1 << STOP
 ${outGrp}
 STOP
-
   if [ -s "${chunk_file}" ]; then
     echo "${chunk_label}" >> .chunks_done
     echo "  -> completato (${chunk_file})"
   else
-    echo "  -> ATTENZIONE: chunk ${chunk_label} sembra vuoto/fallito, non segnato come fatto"
-    echo "     Controlla chunks/log_${chunk_label}.out prima di rilanciare"
+    echo "  -> ATTENZIONE: chunk ${chunk_label} fallito. Controlla chunks/log_${chunk_label}.out"
     exit 1
   fi
 
   b=$e
 done
 
-echo ""
-echo "Tutti i chunk generati. Verifica quanti sono attesi vs quanti fatti:"
-n_done=$(wc -l < .chunks_done)
-echo "Chunk completati: ${n_done}"
-
-echo ""
-echo "Per unire i chunk in un unico metadyn_prot_pbc.trr, quando pronto:"
-echo "  bash ../concat_chunks.sh"
+echo "Tutti i chunk fino a ${total_ps} ps sono stati generati."
