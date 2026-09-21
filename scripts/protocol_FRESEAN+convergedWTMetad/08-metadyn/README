@@ -76,3 +76,16 @@ Le sottocartelle metadyn_0 ... metadyn_19 sono escluse da git
 (centinaia di GB a replica): sono istanze di esecuzione di
 single_metad/, non varianti di codice. single_metad/ resta l'unica
 fonte di verita' versionata per gli script di questo step.
+
+# Come rilanciare il processo spezzettato
+
+for dir in metadyn_*; do
+  if [ -d "$dir" ]; then
+    echo "=========================================="
+    echo " Elaborazione: $dir"
+    echo "=========================================="
+    cd "$dir"
+    bash ../extract_prot_pbc_chunked.sh 2>&1 | tee -a extract_chunked.log
+    cd ..
+  fi
+done

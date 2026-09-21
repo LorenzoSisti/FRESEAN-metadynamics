@@ -68,3 +68,1076 @@ Chunk 14000-16000 ps: estraggo...
 Chunk 16000-18000 ps: estraggo...
   -> completato (chunks/prot_pbc_16000-18000.trr)
 Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 54959 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_2 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 196974 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_3 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 2486926 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_4 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 4039360 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_5 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1232581 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_6 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 3090131 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_7 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 661921 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_8 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1912482 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_9 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 2936373 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_10 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 4132165 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_11 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 761720 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_12 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1649244 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_13 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 2558247 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_14 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 3413337 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_15 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 404351 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_16 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1596106 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_17 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 2781342 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_18 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 4088272 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+=== Inizio metadyn_19 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c
+    libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti
+    gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci
+    bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz
+    libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0
+    gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: estraggo...
+  -> completato (chunks/prot_pbc_0-2000.trr)
+Chunk 2000-4000 ps: estraggo...
+  -> completato (chunks/prot_pbc_2000-4000.trr)
+Chunk 4000-6000 ps: estraggo...
+  -> completato (chunks/prot_pbc_4000-6000.trr)
+Chunk 6000-8000 ps: estraggo...
+  -> completato (chunks/prot_pbc_6000-8000.trr)
+Chunk 8000-10000 ps: estraggo...
+  -> completato (chunks/prot_pbc_8000-10000.trr)
+Chunk 10000-12000 ps: estraggo...
+  -> completato (chunks/prot_pbc_10000-12000.trr)
+Chunk 12000-14000 ps: estraggo...
+  -> completato (chunks/prot_pbc_12000-14000.trr)
+Chunk 14000-16000 ps: estraggo...
+  -> completato (chunks/prot_pbc_14000-16000.trr)
+Chunk 16000-18000 ps: estraggo...
+  -> completato (chunks/prot_pbc_16000-18000.trr)
+Chunk 18000-20000 ps: estraggo...
+  -> completato (chunks/prot_pbc_18000-20000.trr)
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1175006 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+bash: extract_all.sh: No such file or directory
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+- Manca metadyn.tpr o metadyn.trr in /leonardo_scratch/large/userexternal/lsisti00/FRESEAN-metadynamics/scripts/protocol_FRESEAN+convergedWTMetad/08-metadyn, esco
+
+=== Inizio metadyn_0 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 4105474 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_1 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 795660 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_10 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1430588 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_11 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 2289002 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_12 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 3946714 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_13 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 603454 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_14 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1107243 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_15 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 1698699 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_16 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 2014706 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_17 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 2414598 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_18 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
+../extract_prot_pbc_chunked.sh: line 84: 3003220 Killed                  $gmx trjconv -s metadyn.tpr -f metadyn.trr -o "${chunk_file}" -pbc mol -b "${b}" -e "${e}" > "chunks/log_${chunk_label}.out" 2>&1  <<STOP
+${outGrp}
+STOP
+
+
+=== Inizio metadyn_19 ===
+Loading gcc/12.2.0
+  Loading requirement: zlib-ng/2.1.6-jkgunjc zstd/1.5.6-uq5yyux binutils/2.42
+Loading cuda/12.2
+  Loading requirement: libiconv/1.17-nhc3mhm xz/5.4.6-xxxg42c libxml2/2.10.3-zbbe7lm
+Loading openmpi/4.1.6--gcc--12.2.0-cuda-12.2
+  Loading requirement: glibc/2.28--gcc--12.2.0-gi6mmti gcc-runtime/12.2.0--gcc--12.2.0-dqfwf7y numactl/2.0.14--gcc--12.2.0-cxzp4ci bzip2/1.0.8-ib3znej ncurses/6.5-svfl57u pigz/2.8-5bwzpml tar/1.34-jgektnv
+    gettext/0.22.5-hsxgafg krb5/1.20.1-n4kmebh libedit/3.1-20230828-nme7boz libxcrypt/4.4.35-7om46b5 openssh/9.7p1-tk2b5yv
+Loading plumed/2.9.2--openmpi--4.1.6--gcc--12.2.0
+  Loading requirement: openblas/0.3.26--gcc--12.2.0 gsl/2.7.1--gcc--12.2.0-spack0.22
+Traiettoria: elaborazione impostata fino a 80000 ps (80 ns)
+Chunk 0-2000 ps: gia' fatto, salto
+Chunk 2000-4000 ps: gia' fatto, salto
+Chunk 4000-6000 ps: gia' fatto, salto
+Chunk 6000-8000 ps: gia' fatto, salto
+Chunk 8000-10000 ps: gia' fatto, salto
+Chunk 10000-12000 ps: gia' fatto, salto
+Chunk 12000-14000 ps: gia' fatto, salto
+Chunk 14000-16000 ps: gia' fatto, salto
+Chunk 16000-18000 ps: gia' fatto, salto
+Chunk 18000-20000 ps: gia' fatto, salto
+Chunk 20000-22000 ps: estraggo...
