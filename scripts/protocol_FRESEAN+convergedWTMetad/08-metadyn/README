@@ -1,18 +1,20 @@
+# Step 08 - Well-tempered Metadynamics
 
-# Step 08 - Metadynamics
+This step executes 20 independent production replicas of Well-Tempered Metadynamics (WT-metaD) biased along vibrational modes 7 and 8 (derived from reference replica R2) as collective variables (CVs). The goal is to thoroughly sample phase space and reconstruct the free energy surface (FES) governing the conformational transition.
 
-- run.sh in 08-metadyn/ NON e' un job SLURM: va lanciato con
-  `bash run.sh` (mai `sbatch run.sh`). E' uno script lanciatore che gira
-  sul login node e sottomette a sua volta 19-20 job veri tramite sbatch,
-  uno per replica (ciascuno con l'header SLURM corretto dentro startme.sh).
+## Input
 
-- In plumed-mode-metadyn.dat, il parametro SIGMA delle due CV (modi 7 e 8)
-  va impostato a META' della deviazione standard delle fluttuazioni non
-  biased calcolate in 06-ModeProj (file standard-deviation.out), non e' un
-  valore arbitrario. Per il branch apo: SIGMA=4.4e-05,1.6e-04 (calcolato da
-  mode7 std=8.78e-05, mode8 std=3.21e-04). Per il branch holo andra'
-  ricalcolato da zero con gli stessi criteri, usando i valori di
-  standard-deviation.out prodotti dal 06-ModeProj del sistema holo.
+System topology (topol.top), initial conformational snapshots (state_${i}.gro), PLUMED CV reference structure (plumed-mode-input.pdb), and calibrated PLUMED parameter files.
+
+## Output
+
+Metadynamics raw simulation files, deposited bias potentials (plumed-mode-metadyn.hills), and protein-only PBC-corrected trajectories for each of the 20 replicas.
+
+# How to execute the codes in this folder via HPC CINECA Leonardo supercomputer
+
+run.sh in 08-metadyn/ is NOT a SLURM job: it must be executed using bash run.sh (never sbatch run.sh). It is a launcher script that runs on the login node and submits 19–20 actual jobs via sbatch—one for each replica (each containing the proper SLURM header inside startme.sh).
+
+In plumed-mode-metadyn.dat, the SIGMA parameter for the two collective variables (modes 7 and 8) must be set to HALF of the standard deviation of the unbiased fluctuations calculated in 06-ModeProj (found in the standard-deviation.out file); it is not an arbitrary value. For the apo branch: SIGMA=4.4e-05,1.6e-04 (calculated from mode 7 std = 8.78e-05, mode 8 std = 3.21e-04). For the holo branch, it must be recalculated from scratch using the same criteria, based on the standard-deviation.out values produced by the 06-ModeProj step of the holo system.
 
 ## How to run 08-metadyn
 
