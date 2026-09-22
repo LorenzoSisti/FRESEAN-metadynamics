@@ -7,7 +7,7 @@
 #SBATCH --mem=16G
 #SBATCH --account=IscrC_hDDC
 #SBATCH --output=trjconv_recover_%A_%a.out
-#SBATCH --array=0-5
+#SBATCH --array=12-19
 
 # Estrae, per ciascuna replica metadyn_${SLURM_ARRAY_TASK_ID}, la traiettoria
 # protein-only con fix PBC, troncata a 80 ns, riprendendo esattamente il passo

@@ -12,22 +12,20 @@ source /leonardo_scratch/large/userexternal/lsisti00/env-plumed.sh
 #BEGIN INPUT
 gmx=gmx_plumed
 
-#GMX topology for protein (condivisa fra le repliche, sta in 00-prep)
+#GMX topology for protein (the same across all replicas, you find it in 00-prep)
 inpTOPprot=../../00-prep/topol_prot.top
 
-#file .mdp e coordinate proteina-only, servono solo per "appiattire" la
-#topologia multi-catena con grompp -pp (fresean mtop non segue #include)
 inpEMmdp=../../00-prep/em.mdp
 inpBOXgro=../../00-prep/box.gro
 
-#file di job per fresean coarse (condiviso, sta in 03-CG)
+#job file for fresean coarse (the same across all replicas)
 inpJOB=../static.job
 
-#GMX files from MD sampling (specifici della replica R${SLURM_ARRAY_TASK_ID})
+#GMX files from MD sampling (specific for each replica R${SLURM_ARRAY_TASK_ID})
 inpTPR=../../02-MD/R${SLURM_ARRAY_TASK_ID}/sample-NPT.tpr
 inpTRR=../../02-MD/R${SLURM_ARRAY_TASK_ID}/sample-NPT.trr
 
-#output trajectory for protein with PBC fixes (scritta dentro la sottocartella della replica)
+#output trajectory for protein with PBC fixes (in the replicas subfolders)
 outTRRprotAA=sample-NPT_prot_pbc.trr
 
 #output trajectory for protein in CG representation

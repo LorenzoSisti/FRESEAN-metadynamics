@@ -11,11 +11,11 @@ source /leonardo_scratch/large/userexternal/lsisti00/env-plumed.sh
 #BEGIN INPUT
 gmx=gmx_plumed
 pdb=DDC_homo_open.pdb
-box_d=1.0          # nm, buffer minimo per editconf -d
-salt=0.15          # concentrazione salina target (mol/L)
+box_d=1.0          # nm, giving minimal buffer for editconf -d
+salt=0.15          # target saline concentration (mol/L)
 #END INPUT
 
-set -e   # interrompe lo script al primo errore, invece di proseguire silenziosamente
+set -e   # stop the simulation if an error occurs
 
 #Generate first topology file (protein + crystal water/ions)
 $gmx pdb2gmx -f ${pdb} -p topol_prot.top -o prot.gro -ff amber99sb-ildn -water tip3p

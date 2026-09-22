@@ -1,5 +1,5 @@
 
-## Note operative — 08-metadyn
+# Step 08 - Metadynamics
 
 - run.sh in 08-metadyn/ NON e' un job SLURM: va lanciato con
   `bash run.sh` (mai `sbatch run.sh`). E' uno script lanciatore che gira
@@ -14,7 +14,7 @@
   ricalcolato da zero con gli stessi criteri, usando i valori di
   standard-deviation.out prodotti dal 06-ModeProj del sistema holo.
 
-## Come lanciare 08-metadyn
+## How to run 08-metadyn
 
 Prerequisiti (devono essere gia' completati e verificati):
 - 06-ModeProj completato per la replica scelta come riferimento (fornisce
@@ -76,16 +76,3 @@ Le sottocartelle metadyn_0 ... metadyn_19 sono escluse da git
 (centinaia di GB a replica): sono istanze di esecuzione di
 single_metad/, non varianti di codice. single_metad/ resta l'unica
 fonte di verita' versionata per gli script di questo step.
-
-# Come rilanciare il processo spezzettato
-
-for dir in metadyn_*; do
-  if [ -d "$dir" ]; then
-    echo "=========================================="
-    echo " Elaborazione: $dir"
-    echo "=========================================="
-    cd "$dir"
-    bash ../extract_prot_pbc_chunked.sh 2>&1 | tee -a extract_chunked.log
-    cd ..
-  fi
-done
