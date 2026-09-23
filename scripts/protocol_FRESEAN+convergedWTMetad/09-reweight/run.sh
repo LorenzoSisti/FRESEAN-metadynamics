@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nReplicas=20
+nReplicas=1
 for (( i=0; i<${nReplicas}; i++ ))
 do
 cp -r single_rw reweight_$i

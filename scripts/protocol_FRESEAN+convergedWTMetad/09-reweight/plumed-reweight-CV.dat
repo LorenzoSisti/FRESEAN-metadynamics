@@ -8,7 +8,7 @@ ARG=pca.eig-1,pca.eig-2
 PACE=10000
 HEIGHT=0.0
 BIASFACTOR=10
-SIGMA=0.001,0.001
+SIGMA=4.4e-05,1.6e-04
 FILE=plumed-mode-metadyn.hills
 TEMP=300.0
 RESTART=YES
@@ -18,12 +18,10 @@ RESTART=YES
 CA: GROUP NDX_FILE=groups.ndx NDX_GROUP=C-alpha
 rg: GYRATION TYPE=RADIUS ATOMS=CA
 
-# Define the pincer angle.
-G1: COM ATOMS=422-480,1639-1724
-G2: COM ATOMS=1347-1397
-G3: COM ATOMS=663-700,759-784
-pincerangle: ANGLE ATOMS=G1,G2,G3
+# Solvent Accessible Surface Area (SASA)
+MOLINFO STRUCTURE=plumed-mode-input.pdb
+sasa: SASA ATOMS=@protein
 
 # Print each of the desired quantities to a file. Can manually reweight.
 # Weight of frame i is given by w_i \propto exp(V/kT). V is given in the reweight file as metad.bias.
-PRINT ARG=pca.eig-1,pca.eig-2,pincerangle,rg,pca.residual,metad.bias FILE=plumed-reweight-CV.out STRIDE=1
+PRINT ARG=pca.eig-1,pca.eig-2,rg,sasa,pca.residual,metad.bias FILE=plumed-reweight-CV.out STRIDE=1
