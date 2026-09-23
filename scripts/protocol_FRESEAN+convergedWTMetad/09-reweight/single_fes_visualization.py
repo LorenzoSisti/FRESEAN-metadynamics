@@ -149,11 +149,16 @@ y_centers = 0.5 * (yedges[:-1] + yedges[1:])
 # ======================================================================
 # 5. PLOT
 # ======================================================================
-cmap = plt.cm.jet.copy()
+# ======================================================================
+# 5. PLOT
+# ======================================================================
+# Usiamo una colormap moderna e PowerNorm per dare più risalto ai bassi valori
+cmap = plt.cm.viridis.copy()
 cmap.set_bad(color="lightgray")    # bin non campionati (NaN)
 cmap.set_over(color="lightgray")   # energie oltre ENERGY_CAP
 
-norm = mcolors.Normalize(vmin=0, vmax=ENERGY_CAP)
+# PowerNorm con gamma < 1 espande la gamma di colori sui valori bassi di DeltaG
+norm = mcolors.PowerNorm(gamma=0.5, vmin=0, vmax=ENERGY_CAP)
 
 fig, ax = plt.subplots(figsize=(6, 5))
 
@@ -164,7 +169,7 @@ cbar.set_label(r"$\Delta G$ (kJ/mol)", fontsize=12)
 
 ax.set_xlabel(label_x, fontsize=12)
 ax.set_ylabel(label_y, fontsize=12)
-ax.set_title("FES", fontsize=14)
+ax.set_title("FES (Enhanced Low-Energy Resolution)", fontsize=14)
 
 plt.tight_layout()
 plt.savefig(OUTPUT_FIG, dpi=300)
