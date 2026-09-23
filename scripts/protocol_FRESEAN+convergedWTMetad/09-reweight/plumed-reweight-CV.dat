@@ -14,14 +14,6 @@ TEMP=300.0
 RESTART=YES
 ... METAD
 
-# Index file with only c alpha atoms. Use to calculate Rg.
-CA: GROUP NDX_FILE=groups.ndx NDX_GROUP=C-alpha
-rg: GYRATION TYPE=RADIUS ATOMS=CA
-
-# Solvent Accessible Surface Area (SASA)
-MOLINFO STRUCTURE=plumed-mode-input.pdb
-sasa: SASA ATOMS=@protein
-
 # Print each of the desired quantities to a file. Can manually reweight.
 # Weight of frame i is given by w_i \propto exp(V/kT). V is given in the reweight file as metad.bias.
-PRINT ARG=pca.eig-1,pca.eig-2,rg,sasa,pca.residual,metad.bias FILE=plumed-reweight-CV.out STRIDE=1
+PRINT ARG=pca.eig-1,pca.eig-2,pca.residual,metad.bias FILE=plumed-output.out STRIDE=1

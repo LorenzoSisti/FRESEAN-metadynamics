@@ -50,7 +50,15 @@ $gmx mdrun -s ${inpTPRprot} -nsteps 1 -plumed ../plumed-mass+charge.dat >& plume
 kt=2.494339
 
 #Generate groups.ndx file from metadynamics gro output
-echo -e "a CA\nname 13 C-alpha\nq" | gmx make_ndx -f confout.gro -o groups.ndx >& make-ndx.out
+echo -e "a CA\nname 13 C-alpha\nq" | $gmx make_ndx -f confout.gro -o groups.ndx >& make-ndx.out
 
-#Generate reweighted histogram as a function of new CVs
+
+# 1. Calcolo del raggio di girazione con GROMACS (specificando il gruppo)
+echo "Protein" | $gmx gyrate -s ${inpTPRprot} -f ${inpTRRprot} -o gyrate.xvg -quiet
+
+# 2. Calcolo della SASA con GROMACS
+cp ../vdwradii.dat .
+echo "Protein" | $gmx sasa -s ${inpTPRprot} -f ${inpTRRprot} -o sasa.xvg -quiet
+
+# 3. Esecuzione del driver PLUMED per PCA e bias
 plumed driver --mf_trr ${inpTRRprot} --plumed ../plumed-reweight-CV.dat --kt $kt --mc mass+charge.dat > reweight.out
